@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments / البيئات الافتراضية
+.venv/
+venv/
+env/
+
+# Secrets — NEVER commit / أسرار: ممنوع رفعها
+.env
+*.pem
+*-key.json
+service-account*.json
+credentials.json
+.config/earthengine/
+~/.config/earthengine/
+
+# Data & models / البيانات والنماذج
+data/raw/*
+data/processed/*
+!data/**/.gitkeep
+models/*
+!models/.gitkeep
+*.tif
+*.tiff
+*.img
+*.hdf
+*.nc
+*.joblib
+*.pkl
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

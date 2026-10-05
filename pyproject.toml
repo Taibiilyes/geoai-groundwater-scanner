@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoai-groundwater-scanner"
+version = "0.1.0"
+description = "Satellite-driven groundwater potential mapping with Google Earth Engine and machine learning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Taibi Ilyes" }]
+keywords = ["groundwater", "remote-sensing", "earth-engine", "geoai", "hydrogeology"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+    "earthengine-api>=0.1.390",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "joblib>=1.3",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.30", "folium>=0.15", "geemap>=0.30", "matplotlib>=3.7"]
+dev = ["pytest>=7.4", "ruff>=0.4"]
+
+[project.scripts]
+geoai-gws = "geoai_gws.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

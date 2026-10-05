@@ -1,0 +1,21 @@
+lon,lat,class,note_en,note_ar
+2.7421,36.4102,4,Productive well 42 m,بئر منتج بعمق 42 م
+2.7688,36.4255,3,Seasonal yield,إنتاج موسمي
+2.8013,36.3902,4,Artesian spring nearby,نبع ارتوازي قريب
+2.8294,36.4510,2,Low yield 8 m3/h,إنتاج ضعيف 8 م3/س
+2.8571,36.4188,1,Dry in summer,يجف صيفاً
+2.8830,36.5021,0,Dry borehole,بئر جاف
+2.9105,36.4376,3,Irrigation well,بئر ري
+2.9388,36.4702,2,Shallow aquifer,خزان سطحي
+2.9654,36.3988,4,High yield 35 m3/h,إنتاج مرتفع 35 م3/س
+2.9901,36.4523,1,Brackish water,مياه مالحة قليلاً
+3.0157,36.4109,0,"Rocky, no water",صخري بلا مياه
+3.0402,36.4835,3,Stable water table,منسوب مستقر
+2.7250,36.5240,2,Moderate yield,إنتاج متوسط
+2.7905,36.5468,1,Deep and costly,عميق ومكلف
+2.8460,36.3651,4,Alluvial plain well,بئر في السهل الرسوبي
+2.9012,36.3702,3,Good recharge zone,منطقة تغذية جيدة
+2.9530,36.5310,0,"Steep slope, runoff",منحدر حاد وجريان سطحي
+3.0088,36.5587,1,Fractured bedrock,صخر أساسي متشقق
+3.0640,36.3844,2,Variable seasonal,متغيّر موسمياً
+2.7533,36.3780,4,Near wadi channel,قرب مجرى الوادي
